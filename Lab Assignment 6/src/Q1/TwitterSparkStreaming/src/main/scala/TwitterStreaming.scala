@@ -61,7 +61,7 @@ object TwitterStreaming {
         //case (count, tag) => println("%s (%s tweets)".format(tag, count))
         case (count, tag) => SocketClient.sendCommandToAndroid("%s (%s tweets)".format(tag, count))
       }
-    })
+  })
      ssc.start()
 
     var s:String="Twitter feed complete\n"

@@ -1,4 +1,4 @@
-[info] Updating {file:/C:/Users/smoeller/Documents/MSCS/CS5542/Tutorial%205/Spark%20Streaming/TwitterSparkStreaming/project/}twittersparkstreaming-build...
+[info] Updating {file:/C:/Users/smoeller/Documents/MSCS/CS5542/BigDataApps-Spring2016-LabAssignments/Lab%20Assignment%206/src/Q1/TwitterSparkStreaming/project/}twittersparkstreaming-build...
 [debug] :: resolving dependencies :: default#twittersparkstreaming-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -8,48 +8,13 @@
 [debug] == resolving dependencies default#twittersparkstreaming-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.13.0 [compile->default(compile)]
 [info] Resolving com.eed3si9n#sbt-assembly;0.13.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.13.0 {compile=[default(compile)]}
-[info] Resolving com.eed3si9n#sbt-assembly;0.13.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.13.0 {compile=[default(compile)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for com.eed3si9n#sbt-assembly;0.13.0
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: found md file for com.eed3si9n#sbt-assembly;0.13.0
-[debug] 		=> https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/ivys/ivy.xml (0.13.0)
-[debug] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/ivys/ivy.xml ...
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/ivys/ivy.xml.sha1
-[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.13.0!ivy.xml(ivy.original) (5097ms)
-[debug] 	found com.eed3si9n#sbt-assembly;0.13.0 in sbt-plugin-releases
+[debug] sbt-chain: module revision found in cache: com.eed3si9n#sbt-assembly;0.13.0
+[debug] 	found com.eed3si9n#sbt-assembly;0.13.0 in sbt-chain
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.13.0->org.scalactic#scalactic_2.10;2.2.1 [compile->default(compile)]
 [info] Resolving org.scalactic#scalactic_2.10;2.2.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.10;2.2.1 {compile=[default(compile)]}
-[info] Resolving org.scalactic#scalactic_2.10;2.2.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalactic#scalactic_2.10;2.2.1 {compile=[default(compile)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalactic/scalactic_2.10/2.2.1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalactic/scalactic_2.10/2.2.1/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.scalactic#scalactic_2.10;2.2.1
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalactic/scalactic_2.10/2.2.1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalactic/scalactic_2.10/2.2.1/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.scalactic#scalactic_2.10;2.2.1
-[debug] 		tried C:\Users\smoeller\.ivy2\local\org.scalactic\scalactic_2.10\2.2.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.scalactic#scalactic_2.10;2.2.1
-[debug] 		tried https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.pom
-[debug] 	jcenter: found md file for org.scalactic#scalactic_2.10;2.2.1
-[debug] 		=> https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.pom (2.2.1)
-[debug] downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.pom
-[debug] 	[SUCCESSFUL ] org.scalactic#scalactic_2.10;2.2.1!scalactic_2.10.pom(pom.original) (422ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalactic/scalactic_2.10/2.2.1/bundles/scalactic_2.10.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalactic/scalactic_2.10/2.2.1/bundles/scalactic_2.10.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalactic/scalactic_2.10/2.2.1/bundles/scalactic_2.10.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalactic/scalactic_2.10/2.2.1/bundles/scalactic_2.10.jar
-[debug] 		tried C:\Users\smoeller\.ivy2\local\org.scalactic\scalactic_2.10\2.2.1\bundles\scalactic_2.10.jar
-[debug] 		tried https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.jar
-[debug] 	found org.scalactic#scalactic_2.10;2.2.1 in jcenter
+[debug] sbt-chain: module revision found in cache: org.scalactic#scalactic_2.10;2.2.1
+[debug] 	found org.scalactic#scalactic_2.10;2.2.1 in sbt-chain
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.13.0->org.scalactic#scalactic_2.10;2.2.1 [compile->runtime]
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.13.0->org.scalactic#scalactic_2.10;2.2.1 [compile->compile]
 [debug] == resolving dependencies org.scalactic#scalactic_2.10;2.2.1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
@@ -1847,18 +1812,8 @@
 [debug] == resolving dependencies default#twittersparkstreaming-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/jars/sbt-assembly.jar
-[info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/jars/sbt-assembly.jar ...
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/jars/sbt-assembly.jar
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/jars/sbt-assembly.jar.sha1
-[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.13.0/jars/sbt-assembly.jar
-[info] 	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.13.0!sbt-assembly.jar (3518ms)
-[debug] 		tried https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.jar
-[info] downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.jar
-[info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.10;2.2.1!scalactic_2.10.jar(bundle) (2828ms)
+[debug] 	[NOT REQUIRED] com.eed3si9n#sbt-assembly;0.13.0!sbt-assembly.jar
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.10;2.2.1!scalactic_2.10.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar
@@ -1915,19 +1870,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 10654ms :: artifacts dl 6395ms
-[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT compile produced in C:\Users\smoeller\Documents\MSCS\CS5542\Tutorial 5\Spark Streaming\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-compile.xml
-[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT runtime produced in C:\Users\smoeller\Documents\MSCS\CS5542\Tutorial 5\Spark Streaming\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-runtime.xml
-[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT test produced in C:\Users\smoeller\Documents\MSCS\CS5542\Tutorial 5\Spark Streaming\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-test.xml
-[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT provided produced in C:\Users\smoeller\Documents\MSCS\CS5542\Tutorial 5\Spark Streaming\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-provided.xml
-[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT optional produced in C:\Users\smoeller\Documents\MSCS\CS5542\Tutorial 5\Spark Streaming\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-optional.xml
-[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT compile-internal produced in C:\Users\smoeller\Documents\MSCS\CS5542\Tutorial 5\Spark Streaming\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-compile-internal.xml
-[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\smoeller\Documents\MSCS\CS5542\Tutorial 5\Spark Streaming\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-runtime-internal.xml
-[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT test-internal produced in C:\Users\smoeller\Documents\MSCS\CS5542\Tutorial 5\Spark Streaming\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-test-internal.xml
-[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT plugin produced in C:\Users\smoeller\Documents\MSCS\CS5542\Tutorial 5\Spark Streaming\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-plugin.xml
-[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT sources produced in C:\Users\smoeller\Documents\MSCS\CS5542\Tutorial 5\Spark Streaming\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-sources.xml
-[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT docs produced in C:\Users\smoeller\Documents\MSCS\CS5542\Tutorial 5\Spark Streaming\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-docs.xml
-[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT pom produced in C:\Users\smoeller\Documents\MSCS\CS5542\Tutorial 5\Spark Streaming\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-pom.xml
-[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT scala-tool produced in C:\Users\smoeller\Documents\MSCS\CS5542\Tutorial 5\Spark Streaming\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-scala-tool.xml
-[debug] 	resolve done (10654ms resolve - 6395ms download)
+[debug] :: resolution report :: resolve 2268ms :: artifacts dl 80ms
+[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT compile produced in C:\Users\smoeller\Documents\MSCS\CS5542\BigDataApps-Spring2016-LabAssignments\Lab Assignment 6\src\Q1\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-compile.xml
+[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT runtime produced in C:\Users\smoeller\Documents\MSCS\CS5542\BigDataApps-Spring2016-LabAssignments\Lab Assignment 6\src\Q1\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-runtime.xml
+[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT test produced in C:\Users\smoeller\Documents\MSCS\CS5542\BigDataApps-Spring2016-LabAssignments\Lab Assignment 6\src\Q1\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-test.xml
+[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT provided produced in C:\Users\smoeller\Documents\MSCS\CS5542\BigDataApps-Spring2016-LabAssignments\Lab Assignment 6\src\Q1\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-provided.xml
+[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT optional produced in C:\Users\smoeller\Documents\MSCS\CS5542\BigDataApps-Spring2016-LabAssignments\Lab Assignment 6\src\Q1\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-optional.xml
+[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT compile-internal produced in C:\Users\smoeller\Documents\MSCS\CS5542\BigDataApps-Spring2016-LabAssignments\Lab Assignment 6\src\Q1\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-compile-internal.xml
+[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\smoeller\Documents\MSCS\CS5542\BigDataApps-Spring2016-LabAssignments\Lab Assignment 6\src\Q1\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-runtime-internal.xml
+[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT test-internal produced in C:\Users\smoeller\Documents\MSCS\CS5542\BigDataApps-Spring2016-LabAssignments\Lab Assignment 6\src\Q1\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-test-internal.xml
+[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT plugin produced in C:\Users\smoeller\Documents\MSCS\CS5542\BigDataApps-Spring2016-LabAssignments\Lab Assignment 6\src\Q1\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-plugin.xml
+[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT sources produced in C:\Users\smoeller\Documents\MSCS\CS5542\BigDataApps-Spring2016-LabAssignments\Lab Assignment 6\src\Q1\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-sources.xml
+[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT docs produced in C:\Users\smoeller\Documents\MSCS\CS5542\BigDataApps-Spring2016-LabAssignments\Lab Assignment 6\src\Q1\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-docs.xml
+[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT pom produced in C:\Users\smoeller\Documents\MSCS\CS5542\BigDataApps-Spring2016-LabAssignments\Lab Assignment 6\src\Q1\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-pom.xml
+[debug] 	report for default#twittersparkstreaming-build;0.1-SNAPSHOT scala-tool produced in C:\Users\smoeller\Documents\MSCS\CS5542\BigDataApps-Spring2016-LabAssignments\Lab Assignment 6\src\Q1\TwitterSparkStreaming\project\target\resolution-cache\reports\default-twittersparkstreaming-build-scala-tool.xml
+[debug] 	resolve done (2268ms resolve - 80ms download)
 [info] Done updating.

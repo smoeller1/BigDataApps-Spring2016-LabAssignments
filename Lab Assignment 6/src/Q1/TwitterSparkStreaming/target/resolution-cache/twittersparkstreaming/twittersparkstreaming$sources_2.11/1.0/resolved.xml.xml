@@ -4,7 +4,7 @@
 		module="twittersparkstreaming$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160226132200"
+		publication="20160229093942"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
