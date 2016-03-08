@@ -67,8 +67,15 @@ object NLPUtils {
      * wholeTextFile._2 is the text, this is tokenized and stemmed
      */
 
+      //label = filename without path
     val (label, id) = getLabelandId(wholeTextFile._1)
+
+    //processedDoc = String of all words of length >2 from file, space separated
+    //(significant words)
     val processedDoc = tokenizeAndStem(wholeTextFile._2)
+
+    //returns a LabeledDocument object with the file ID, string of significant words,
+    //file name, and numeric assignment for this object
     LabeledDocument(id, processedDoc, label, labelMap(label))
   }
 
@@ -95,19 +102,36 @@ object NLPUtils {
       Data: RDD of type LabledDocument
       LabelMap: a hashmap containing text labels to numeric labels ("alt.atheism" -> 4)
      */
+
+      //Creates a new Term Frequency hasher
     val tf = new HashingTF()
+
+    //Maps all data in each RDD (and caches it), as the term frequency of each word in the RDD file,
+    //creating a new list of each term and its TF
     val freqs = data.map(x => (LabeledPoint(x.numericLabel, tf.transform(x.body.split(" "))))).cache()
+
+    //TODO: Figure out what the features aspect of the list elements are supposed to be
+    //(what does this do?)
     val hashedData = freqs.map(_.features)
+
+    //creates the inverse document frequency vector
     val idfModel = new IDF().fit(hashedData)
+
+    //scales the term frequencies to the IDF vector
     val idf = idfModel.transform(hashedData)
+
+    //This will fall through to false with our usage
     val LabeledVectors = if (norm == true) {
       val l2 = new Normalizer()
       idf.zip(freqs).map(x => LabeledPoint(x._2.label, l2.transform(x._1)))
     } else {
+
+      //Creates labeled vectors for the TF-IDF terms and values
       idf.zip(freqs).map(x => LabeledPoint(x._2.label, x._1))
     }
+
+    //returns the TF-IDF term & value vectors
     LabeledVectors
-    // freqs
   }
 
 
