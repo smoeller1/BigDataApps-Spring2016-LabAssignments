@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="audiofeatures$sources_2.11"
+		revision="1.0"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160411164250"/>
+	<dependencies>
+		<module organisation="nz.ac.waikato.cms.weka" name="weka-stable">
+			<revision name="3.6.6" status="release" pubdate="20120418050538" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.cms.waikato.ac.nz/ml/weka/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="GNU General Public License 2.0" url="http://www.gnu.org/licenses/gpl-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3824" time="0" location="C:\Users\smoeller\.ivy2\cache\nz.ac.waikato.cms.weka\weka-stable\ivy-3.6.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/nz/ac/waikato/cms/weka/weka-stable/3.6.6/weka-stable-3.6.6.pom"/>
+				<caller organisation="default" name="audiofeatures$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.6.6" rev-constraint-default="3.6.6" rev-constraint-dynamic="3.6.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="weka-stable" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5462636" time="0" location="C:\Users\smoeller\.ivy2\cache\nz.ac.waikato.cms.weka\weka-stable\srcs\weka-stable-3.6.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/nz/ac/waikato/cms/weka/weka-stable/3.6.6/weka-stable-3.6.6-sources.jar"/>
+					</artifact>
+					<artifact name="weka-stable" type="jar" ext="jar" status="no" details="" size="6454169" time="0" location="C:\Users\smoeller\.ivy2\cache\nz.ac.waikato.cms.weka\weka-stable\jars\weka-stable-3.6.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/nz/ac/waikato/cms/weka/weka-stable/3.6.6/weka-stable-3.6.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.squirrel-sql.thirdparty-non-maven" name="java-cup">
+			<revision name="0.11a" status="release" pubdate="20091010073157" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www2.cs.tum.edu/projects/cup/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="CUP Parser Generator Copyright Notice, License, and Disclaimer" url="http://www.smlnj.org//license.html"/>
+				<metadata-artifact status="no" details="" size="2767" time="0" location="C:\Users\smoeller\.ivy2\cache\net.sf.squirrel-sql.thirdparty-non-maven\java-cup\ivy-0.11a.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/sf/squirrel-sql/thirdparty-non-maven/java-cup/0.11a/java-cup-0.11a.pom"/>
+				<caller organisation="default" name="audiofeatures$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.11a" rev-constraint-default="0.11a" rev-constraint-dynamic="0.11a" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="java-cup" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="324558" time="0" location="C:\Users\smoeller\.ivy2\cache\net.sf.squirrel-sql.thirdparty-non-maven\java-cup\srcs\java-cup-0.11a-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sf/squirrel-sql/thirdparty-non-maven/java-cup/0.11a/java-cup-0.11a-sources.jar"/>
+					</artifact>
+					<artifact name="java-cup" type="jar" ext="jar" status="no" details="" size="96121" time="0" location="C:\Users\smoeller\.ivy2\cache\net.sf.squirrel-sql.thirdparty-non-maven\java-cup\jars\java-cup-0.11a.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sf/squirrel-sql/thirdparty-non-maven/java-cup/0.11a/java-cup-0.11a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.7" status="release" pubdate="20150803110311" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\smoeller\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
+				<caller organisation="default" name="audiofeatures$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5745606" time="0" location="C:\Users\smoeller\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="908307" time="0" location="C:\Users\smoeller\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.11.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
